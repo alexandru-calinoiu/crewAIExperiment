@@ -44,7 +44,7 @@ def main():
         },
     )
 
-    result = crew.kickoff(inputs={"topic": "Cheese"})
+    result = crew.kickoff(inputs={"topic": "AI regression testing"})
     print(result)
 
 
