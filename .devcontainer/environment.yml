@@ -1,0 +1,14 @@
+name: crewAI
+channels:  
+ - defaults
+dependencies:  
+ - python=3.12.0
+ - openai
+ - python-dotenv
+ - pip
+ - openai
+ - pip:
+   - crewai
+   - crewai[tools]
+
+
